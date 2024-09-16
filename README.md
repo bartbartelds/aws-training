@@ -2,78 +2,81 @@
 
 The modules in this aws training curriculum are intended to give you some hands-on experience with aws, and highlight several core services. To follow along and see stuff happen, you don't need a ton of prerequisite knowledge. While executing the examples, you may run into problems or unexpected behavior. If that should happen, try to solve the problem - read carefully, apply your knowledge, experiment and search for answers. If you get frustrated, just ask. 
 
-These modules cover several core aws services and concepts. These don't have to be followed in order - but it is probably better if you do. 
+These modules cover several core aws services and concepts. 
 
-The modules require you to get hands-on with aws. So there are some practical prerequisites. You'll need: 
-- access to an aws account
-- a linux-like shell on your system that allows you to run aws CLI commands
-- an IDE - vscode works well
-
-Having some experience with vm's, programming and linux will make things easier. You'll pick up some stuff along the way, regardless. 
+The modules require you to get hands-on with aws, and will cover a lot of broader topics along the way.
 
 ## Topics
 
--  01-git
+Getting started: 
+- [00-aws-cloudshell](00-aws-cloudshell.md)
+- [01-basic-shell-commands](01-basic-shell-commands.md)
+- [02-aws-general-concepts-and-aws-cli](02-aws-general-concepts-and-aws-cli.md)
+- [03-basic-aws-iam](03-basic-aws-iam.md)
+- [04-basic-git](04-git.md)
 
+My First Webserver:
+- [05-aws-basic-ec2](05-aws-ec2.md)
+- [06-aws-basic-networking](06-aws-basic-networking.md)
+- [07-aws-security-groups](07-aws-security-groups.md)
+- [08-aws-ec2-userdata](08-aws-ec2-userdata.md)
 
+More linux stuff:
+- [09-advanced-shell-commands](09-advanced-shell-commands.md)
+- [10-automating-processes-with-systemctl-and-crontab](10-automating-processes-with-systemctl-and-crontab.md)
+- [11-analysing-linux-processes-and-performance](11-analysing-linux-processes-and-performance.md)
 
--  01-aws-cloudshell-and-shell-commands
--  02-aws-iam
--  03-aws-cli
--  04-infrastructure-as-code-terraform
--  05-basic-networking
--  06-basic-node.js
--  07-basic-python
--  08-aws-ec2
--  09-aws-route53
--  10-aws-loadbalancing
--  10-aws-s3
--  11-aws-vpc
--  12-aws-ecs
--  13-aws-rds
--  14-aws-lambda
--  15-aws-api-gateway
--  16-aws-dynamodb
--  17-aws-cloudwatch
--  18-aws-athena
--  19-aws-glue
--  20-aws-
+Configuration files and formats:
+- [12-json](12-json.md)
+- [13-yaml](13-yaml.md)
 
-## Getting started
+AWS Services:
+- [14-aws-iam-extended](14-aws-iam-extended.md)
+- [15-aws-s3](15-aws-s3.md)
+- [16-aws-advanced-ec2](16-aws-ec2-extended.md)
+- [17-aws-ec2-loadbalancing](17-aws-ec2-loadbalancing.md)
+- [18-aws-route53](18-aws-route53.md)
 
-If you are working on an managed device, and you cannot install local software, simply use the other .md files in this repository the way you're reading them now. 
+Containers:
+- [19-basic-docker](19-basic-docker.md)
+- [20-dockerizing-a-workload](20-dockerizing-a-workload)
+- [21-docker-compose](21-docker-compose.md)
+- [22-docker-networking](22-docker-networking.md)
+- [23-aws-ecs](23-aws-ecs.md)
+- [24-kubernetes](24-kubernetes.md)
 
-If you can, please clone the contents of this git repository to your local system. 
-Git Installed:
-Git must be installed on your local machine to run the git clone command.
+Infrastructure as Code
+- [21-advanced-git](21-advanced-git.md)
+- [22-aws-cloudformation](22-aws-cloudformation.md)
+- [23-terraform](23-terraform.md)
+- [24-basic-node.js](24-basic-node.js.md)
+- [25-basic-python](25-basic-python.md)
+- [26-revisit-my-first-webserver](26-revisit-my-first-webserver.md)
 
-Installing Git:
-<details>
-<summary>On Ubuntu/Debian:</summary>
-```shell
-sudo apt update
-sudo apt install git
-```
-</details>
-<details>
-<summary>On macOS (using Homebrew):</summary>
-```shell
-brew install git
-```
-</details>
-<details>
-<summary>On Windows:</summary>
-Download and install Git from the official website: [Git for Windows](https://git-scm.com/download/win/)
-</details>
-A GitHub Account (optional):
-You don't need an account to clone public repositories, but having one will allow you to contribute to repositories.
+AI tools
+- [27-codium](27-codium.md)
 
+Serverless
+- [28-aws-lambda](28-aws-lambda.md)
+- [29-aws-api-gateway](29-aws-api-gateway.md)
+- [30-aws-rds](30-aws-rds.md)
+- [31-aws-dynamodb](31-aws-dynamodb.md)
 
+Measuring and reporting
+- kibana
+- grafana
+- aws-cloudwatch
+- aws-
 
-If you choose to go this route, please make sure you've covered the following prerequisites: 
+Security
+- aws-waf
+- aws-inspector
+- aws-macie
+- aws-guardduty
+- aws-securityhub
 
-- install git 
-```shell
-git clone https://url-to-the-repository-you-want-to-clone
-```
+Data services
+- [32-aws-athena](32-aws-athena.md)
+- [33-aws-glue](33-aws-glue.md)
+- [34-aws-cloudwatch](34-aws-cloudwatch.md)
 
