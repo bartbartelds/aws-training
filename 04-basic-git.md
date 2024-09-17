@@ -59,7 +59,7 @@ Resolving deltas: 100% (5/5), done.
 Notice the first line. \
 3. Run ```ls -l``` \
 Notice there is now a new directory called ```aws-training``` in your home directory.\
-4. Run ```cd aws-training```
+4. Run ```cd aws-training``` \
 5. Run ```ls -al``` \
 Notice that, beside the .md files, there is also a ```.git``` directory and a ```.gitignore``` file present. 
 
